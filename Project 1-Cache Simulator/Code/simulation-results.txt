@@ -1,0 +1,468 @@
+=========PART A: CACHE SIZE COMPARISON===========
+
+====================XSBENCH======================
+Results for: ./SIM 8192 4 0 1 Testcases/XSBENCH.t 
+Miss ratio 0.136261
+write 55680
+read 2885331
+
+Results for: ./SIM 16384 4 0 1 Testcases/XSBENCH.t 
+Miss ratio 0.119363
+write 7318
+read 2527505
+
+Results for: ./SIM 32768 4 0 1 Testcases/XSBENCH.t 
+Miss ratio 0.112539
+write 600
+read 2383001
+
+Results for: ./SIM 65536 4 0 1 Testcases/XSBENCH.t 
+Miss ratio 0.108198
+write 69
+read 2291098
+
+Results for: ./SIM 131072 4 0 1 Testcases/XSBENCH.t 
+Miss ratio 0.104894
+write 36
+read 2221125
+
+====================MINIFE======================
+Results for: ./SIM 8192 4 0 1 Testcases/MINIFE.t 
+Miss ratio 0.0807033
+write 84760
+read 393352
+
+Results for: ./SIM 16384 4 0 1 Testcases/MINIFE.t 
+Miss ratio 0.0742312
+write 77552
+read 361807
+
+Results for: ./SIM 32768 4 0 1 Testcases/MINIFE.t 
+Miss ratio 0.0655949
+write 71942
+read 319713
+
+Results for: ./SIM 65536 4 0 1 Testcases/MINIFE.t 
+Miss ratio 0.059669
+write 66927
+read 290830
+
+Results for: ./SIM 131072 4 0 1 Testcases/MINIFE.t 
+Miss ratio 0.0558289
+write 61142
+read 272113
+
+======PART B: WRITE-BACK POLICY COMPARISON========
+
+====================XSBENCH======================
+Results for: ./SIM 8192 4 0 0 Testcases/XSBENCH.t 
+Miss ratio 0.136261
+write 5013495
+read 2885331
+
+Results for: ./SIM 16384 4 0 0 Testcases/XSBENCH.t 
+Miss ratio 0.119363
+write 5013495
+read 2527505
+
+Results for: ./SIM 32768 4 0 0 Testcases/XSBENCH.t 
+Miss ratio 0.112539
+write 5013495
+read 2383001
+
+Results for: ./SIM 65536 4 0 0 Testcases/XSBENCH.t 
+Miss ratio 0.108198
+write 5013495
+read 2291098
+
+Results for: ./SIM 131072 4 0 0 Testcases/XSBENCH.t 
+Miss ratio 0.104894
+write 5013495
+read 2221125
+
+====================MINIFE======================
+Results for: ./SIM 8192 4 0 0 Testcases/MINIFE.t 
+Miss ratio 0.0807033
+write 636483
+read 393352
+
+Results for: ./SIM 16384 4 0 0 Testcases/MINIFE.t 
+Miss ratio 0.0742312
+write 636483
+read 361807
+
+Results for: ./SIM 32768 4 0 0 Testcases/MINIFE.t 
+Miss ratio 0.0655949
+write 636483
+read 319713
+
+Results for: ./SIM 65536 4 0 0 Testcases/MINIFE.t 
+Miss ratio 0.059669
+write 636483
+read 290830
+
+Results for: ./SIM 131072 4 0 0 Testcases/MINIFE.t 
+Miss ratio 0.0558289
+write 636483
+read 272113
+
+==========PART C: ASSOCIATIVITY COMPARISON=========
+
+=====================XSBENCH=======================
+Results for: ./SIM 32768 1 0 1 Testcases/XSBENCH.t 
+Miss ratio 0.122697
+write 36601
+read 2598100
+
+Results for: ./SIM 32768 2 0 1 Testcases/XSBENCH.t 
+Miss ratio 0.114457
+write 4814
+read 2423632
+
+Results for: ./SIM 32768 4 0 1 Testcases/XSBENCH.t 
+Miss ratio 0.112539
+write 600
+read 2383001
+
+Results for: ./SIM 32768 8 0 1 Testcases/XSBENCH.t 
+Miss ratio 0.112008
+write 44
+read 2371758
+
+Results for: ./SIM 32768 16 0 1 Testcases/XSBENCH.t 
+Miss ratio 0.111906
+write 35
+read 2369595
+
+Results for: ./SIM 32768 32 0 1 Testcases/XSBENCH.t 
+Miss ratio 0.111784
+write 35
+read 2367026
+
+Results for: ./SIM 32768 64 0 1 Testcases/XSBENCH.t 
+Miss ratio 0.111753
+write 35
+read 2366370
+
+=====================MINIFE=======================
+Results for: ./SIM 32768 1 0 1 Testcases/MINIFE.t 
+Miss ratio 0.0754056
+write 80768
+read 367531
+
+Results for: ./SIM 32768 2 0 1 Testcases/MINIFE.t 
+Miss ratio 0.0661507
+write 73895
+read 322422
+
+Results for: ./SIM 32768 4 0 1 Testcases/MINIFE.t 
+Miss ratio 0.0655949
+write 71942
+read 319713
+
+Results for: ./SIM 32768 8 0 1 Testcases/MINIFE.t 
+Miss ratio 0.0652919
+write 71657
+read 318236
+
+Results for: ./SIM 32768 16 0 1 Testcases/MINIFE.t 
+Miss ratio 0.0654297
+write 71615
+read 318908
+
+Results for: ./SIM 32768 32 0 1 Testcases/MINIFE.t 
+Miss ratio 0.0655832
+write 71584
+read 319656
+
+Results for: ./SIM 32768 64 0 1 Testcases/MINIFE.t 
+Miss ratio 0.0656657
+write 71621
+read 320058
+
+=======PART D: REPLACEMENT POLICY COMPARISON=======
+
+=====================XSBENCH=======================
+Results for: ./SIM 32768 1 1 1 Testcases/XSBENCH.t 
+Miss ratio 0.122697
+write 36601
+read 2598100
+
+Results for: ./SIM 32768 2 1 1 Testcases/XSBENCH.t 
+Miss ratio 0.12061
+write 32029
+read 2553909
+
+Results for: ./SIM 32768 4 1 1 Testcases/XSBENCH.t 
+Miss ratio 0.120672
+write 32613
+read 2555217
+
+Results for: ./SIM 32768 8 1 1 Testcases/XSBENCH.t 
+Miss ratio 0.120891
+write 32701
+read 2559872
+
+Results for: ./SIM 32768 16 1 1 Testcases/XSBENCH.t 
+Miss ratio 0.121221
+write 34150
+read 2566840
+
+Results for: ./SIM 32768 32 1 1 Testcases/XSBENCH.t 
+Miss ratio 0.121125
+write 33228
+read 2564812
+
+Results for: ./SIM 32768 64 1 1 Testcases/XSBENCH.t 
+Miss ratio 0.121212
+write 33128
+read 2566661
+
+======================MINIFE=====================
+Results for: ./SIM 32768 1 1 1 Testcases/MINIFE.t 
+Miss ratio 0.0754056
+write 80768
+read 367531
+
+Results for: ./SIM 32768 2 1 1 Testcases/MINIFE.t 
+Miss ratio 0.0680233
+write 75550
+read 331549
+
+Results for: ./SIM 32768 4 1 1 Testcases/MINIFE.t 
+Miss ratio 0.0677426
+write 73880
+read 330181
+
+Results for: ./SIM 32768 8 1 1 Testcases/MINIFE.t 
+Miss ratio 0.067609
+write 73697
+read 329530
+
+Results for: ./SIM 32768 16 1 1 Testcases/MINIFE.t 
+Miss ratio 0.0680705
+write 73660
+read 331779
+
+Results for: ./SIM 32768 32 1 1 Testcases/MINIFE.t 
+Miss ratio 0.0682268
+write 73669
+read 332541
+
+Results for: ./SIM 32768 64 1 1 Testcases/MINIFE.t 
+Miss ratio 0.0682746
+write 73748
+read 332774
+
+====================BONUS SECTION======================
+
+Results for: ./SIM 32768 1 2 1 Testcases/XSBENCH.t 
+Miss ratio 0.122697
+write 36601
+read 2598100
+
+Results for: ./SIM 32768 2 2 1 Testcases/XSBENCH.t 
+Miss ratio 0.118604
+write 7830
+read 2511445
+
+Results for: ./SIM 32768 4 2 1 Testcases/XSBENCH.t 
+Miss ratio 0.119479
+write 0
+read 2529973
+
+Results for: ./SIM 32768 8 2 1 Testcases/XSBENCH.t 
+Miss ratio 0.12169
+write 0
+read 2576786
+
+Results for: ./SIM 32768 16 2 1 Testcases/XSBENCH.t 
+Miss ratio 0.122158
+write 0
+read 2586697
+
+Results for: ./SIM 32768 32 2 1 Testcases/XSBENCH.t 
+Miss ratio 0.131979
+write 0
+read 2794652
+
+Results for: ./SIM 32768 64 2 1 Testcases/XSBENCH.t 
+Miss ratio 0.139112
+write 0
+read 2945686
+
+Results for: ./SIM 32768 1 2 1 Testcases/MINIFE.t 
+Miss ratio 0.0754056
+write 80768
+read 367531
+
+Results for: ./SIM 32768 2 2 1 Testcases/MINIFE.t 
+Miss ratio 0.0783393
+write 81012
+read 381830
+
+Results for: ./SIM 32768 4 2 1 Testcases/MINIFE.t 
+Miss ratio 0.0798744
+write 79169
+read 389312
+
+Results for: ./SIM 32768 8 2 1 Testcases/MINIFE.t 
+Miss ratio 0.0891991
+write 88024
+read 434761
+
+Results for: ./SIM 32768 16 2 1 Testcases/MINIFE.t 
+Miss ratio 0.102429
+write 102007
+read 499244
+
+Results for: ./SIM 32768 32 2 1 Testcases/MINIFE.t 
+Miss ratio 0.125236
+write 123264
+read 610405
+
+Results for: ./SIM 32768 64 2 1 Testcases/MINIFE.t 
+Miss ratio 0.166978
+write 150677
+read 813859
+
+Results for: ./SIM 32768 1 3 1 Testcases/XSBENCH.t 
+Miss ratio 0.122697
+write 36601
+read 2598100
+
+Results for: ./SIM 32768 2 3 1 Testcases/XSBENCH.t 
+Miss ratio 0.133309
+write 71605
+read 2822814
+
+Results for: ./SIM 32768 4 3 1 Testcases/XSBENCH.t 
+Miss ratio 0.15058
+write 145575
+read 3188525
+
+Results for: ./SIM 32768 8 3 1 Testcases/XSBENCH.t 
+Miss ratio 0.177705
+write 251583
+read 3762906
+
+Results for: ./SIM 32768 16 3 1 Testcases/XSBENCH.t 
+Miss ratio 0.220681
+write 518408
+read 4672901
+
+Results for: ./SIM 32768 32 3 1 Testcases/XSBENCH.t 
+Miss ratio 0.258836
+write 706992
+read 5480840
+
+Results for: ./SIM 32768 64 3 1 Testcases/XSBENCH.t 
+Miss ratio 0.305921
+write 982895
+read 6477865
+
+Results for: ./SIM 32768 1 3 1 Testcases/MINIFE.t 
+Miss ratio 0.0754056
+write 80768
+read 367531
+
+Results for: ./SIM 32768 2 3 1 Testcases/MINIFE.t 
+Miss ratio 0.0857695
+write 91882
+read 418045
+
+Results for: ./SIM 32768 4 3 1 Testcases/MINIFE.t 
+Miss ratio 0.100554
+write 102739
+read 490106
+
+Results for: ./SIM 32768 8 3 1 Testcases/MINIFE.t 
+Miss ratio 0.124153
+write 120655
+read 605126
+
+Results for: ./SIM 32768 16 3 1 Testcases/MINIFE.t 
+Miss ratio 0.18384
+write 159237
+read 896046
+
+Results for: ./SIM 32768 32 3 1 Testcases/MINIFE.t 
+Miss ratio 0.265766
+write 203123
+read 1295358
+
+Results for: ./SIM 32768 64 3 1 Testcases/MINIFE.t 
+Miss ratio 0.361793
+write 292314
+read 1763400
+
+Results for: ./SIM 32768 1 4 1 Testcases/XSBENCH.t 
+Miss ratio 0.122697
+write 36601
+read 2598100
+
+Results for: ./SIM 32768 2 4 1 Testcases/XSBENCH.t 
+Miss ratio 0.113246
+write 33
+read 2397990
+
+Results for: ./SIM 32768 4 4 1 Testcases/XSBENCH.t 
+Miss ratio 0.116941
+write 28
+read 2476229
+
+Results for: ./SIM 32768 8 4 1 Testcases/XSBENCH.t 
+Miss ratio 0.123308
+write 26
+read 2611038
+
+Results for: ./SIM 32768 16 4 1 Testcases/XSBENCH.t 
+Miss ratio 0.122833
+write 25
+read 2600988
+
+Results for: ./SIM 32768 32 4 1 Testcases/XSBENCH.t 
+Miss ratio 0.132803
+write 22
+read 2812098
+
+Results for: ./SIM 32768 64 4 1 Testcases/XSBENCH.t 
+Miss ratio 0.1436
+write 16
+read 3040732
+
+Results for: ./SIM 32768 1 4 1 Testcases/MINIFE.t 
+Miss ratio 0.0754056
+write 80768
+read 367531
+
+Results for: ./SIM 32768 2 4 1 Testcases/MINIFE.t 
+Miss ratio 0.0751053
+write 85473
+read 366067
+
+Results for: ./SIM 32768 4 4 1 Testcases/MINIFE.t 
+Miss ratio 0.0826554
+write 91148
+read 402867
+
+Results for: ./SIM 32768 8 4 1 Testcases/MINIFE.t 
+Miss ratio 0.0963114
+write 104192
+read 469427
+
+Results for: ./SIM 32768 16 4 1 Testcases/MINIFE.t 
+Miss ratio 0.134334
+write 133318
+read 654753
+
+Results for: ./SIM 32768 32 4 1 Testcases/MINIFE.t 
+Miss ratio 0.200562
+write 177929
+read 977551
+
+Results for: ./SIM 32768 64 4 1 Testcases/MINIFE.t 
+Miss ratio 0.288333
+write 247591
+read 1405349
+

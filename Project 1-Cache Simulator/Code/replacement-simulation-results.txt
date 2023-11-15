@@ -1,0 +1,210 @@
+Results for: ./SIM 32768 1 2 1 Testcases/XSBENCH.t 
+0.122697
+36601
+2598100
+
+Results for: ./SIM 32768 2 2 1 Testcases/XSBENCH.t 
+0.118604
+7830
+2511445
+
+Results for: ./SIM 32768 4 2 1 Testcases/XSBENCH.t 
+0.119479
+0
+2529973
+
+Results for: ./SIM 32768 8 2 1 Testcases/XSBENCH.t 
+0.12169
+0
+2576786
+
+Results for: ./SIM 32768 16 2 1 Testcases/XSBENCH.t 
+0.122158
+0
+2586697
+
+Results for: ./SIM 32768 32 2 1 Testcases/XSBENCH.t 
+0.131979
+0
+2794652
+
+Results for: ./SIM 32768 64 2 1 Testcases/XSBENCH.t 
+0.139112
+0
+2945686
+
+Results for: ./SIM 32768 1 2 1 Testcases/MINIFE.t 
+0.0754056
+80768
+367531
+
+Results for: ./SIM 32768 2 2 1 Testcases/MINIFE.t 
+0.0783393
+81012
+381830
+
+Results for: ./SIM 32768 4 2 1 Testcases/MINIFE.t 
+0.0798744
+79169
+389312
+
+Results for: ./SIM 32768 8 2 1 Testcases/MINIFE.t 
+0.0891991
+88024
+434761
+
+Results for: ./SIM 32768 16 2 1 Testcases/MINIFE.t 
+0.102429
+102007
+499244
+
+Results for: ./SIM 32768 32 2 1 Testcases/MINIFE.t 
+0.125236
+123264
+610405
+
+Results for: ./SIM 32768 64 2 1 Testcases/MINIFE.t 
+0.166978
+150677
+813859
+
+Results for: ./SIM 32768 1 3 1 Testcases/XSBENCH.t 
+0.122697
+36601
+2598100
+
+Results for: ./SIM 32768 2 3 1 Testcases/XSBENCH.t 
+0.133309
+71605
+2822814
+
+Results for: ./SIM 32768 4 3 1 Testcases/XSBENCH.t 
+0.15058
+145575
+3188525
+
+Results for: ./SIM 32768 8 3 1 Testcases/XSBENCH.t 
+0.177705
+251583
+3762906
+
+Results for: ./SIM 32768 16 3 1 Testcases/XSBENCH.t 
+0.220681
+518408
+4672901
+
+Results for: ./SIM 32768 32 3 1 Testcases/XSBENCH.t 
+0.258836
+706992
+5480840
+
+Results for: ./SIM 32768 64 3 1 Testcases/XSBENCH.t 
+0.305921
+982895
+6477865
+
+Results for: ./SIM 32768 1 3 1 Testcases/MINIFE.t 
+0.0754056
+80768
+367531
+
+Results for: ./SIM 32768 2 3 1 Testcases/MINIFE.t 
+0.0857695
+91882
+418045
+
+Results for: ./SIM 32768 4 3 1 Testcases/MINIFE.t 
+0.100554
+102739
+490106
+
+Results for: ./SIM 32768 8 3 1 Testcases/MINIFE.t 
+0.124153
+120655
+605126
+
+Results for: ./SIM 32768 16 3 1 Testcases/MINIFE.t 
+0.18384
+159237
+896046
+
+Results for: ./SIM 32768 32 3 1 Testcases/MINIFE.t 
+0.265766
+203123
+1295358
+
+Results for: ./SIM 32768 64 3 1 Testcases/MINIFE.t 
+0.361793
+292314
+1763400
+
+Results for: ./SIM 32768 1 4 1 Testcases/XSBENCH.t 
+0.122697
+36601
+2598100
+
+Results for: ./SIM 32768 2 4 1 Testcases/XSBENCH.t 
+0.113246
+33
+2397990
+
+Results for: ./SIM 32768 4 4 1 Testcases/XSBENCH.t 
+0.116941
+28
+2476229
+
+Results for: ./SIM 32768 8 4 1 Testcases/XSBENCH.t 
+0.123308
+26
+2611038
+
+Results for: ./SIM 32768 16 4 1 Testcases/XSBENCH.t 
+0.122833
+25
+2600988
+
+Results for: ./SIM 32768 32 4 1 Testcases/XSBENCH.t 
+0.132803
+22
+2812098
+
+Results for: ./SIM 32768 64 4 1 Testcases/XSBENCH.t 
+0.1436
+16
+3040732
+
+Results for: ./SIM 32768 1 4 1 Testcases/MINIFE.t 
+0.0754056
+80768
+367531
+
+Results for: ./SIM 32768 2 4 1 Testcases/MINIFE.t 
+0.0751053
+85473
+366067
+
+Results for: ./SIM 32768 4 4 1 Testcases/MINIFE.t 
+0.0826554
+91148
+402867
+
+Results for: ./SIM 32768 8 4 1 Testcases/MINIFE.t 
+0.0963114
+104192
+469427
+
+Results for: ./SIM 32768 16 4 1 Testcases/MINIFE.t 
+0.134334
+133318
+654753
+
+Results for: ./SIM 32768 32 4 1 Testcases/MINIFE.t 
+0.200562
+177929
+977551
+
+Results for: ./SIM 32768 64 4 1 Testcases/MINIFE.t 
+0.288333
+247591
+1405349
+

@@ -1,0 +1,53 @@
+================Part A: Vary GHR Bits (N)===========================
+Testing with arguments: ./sim gshare 4 1 testcases/mcf_trace.txt
+4 1 24.712%
+Testing with arguments: ./sim gshare 4 2 testcases/mcf_trace.txt
+4 2 26.8559%
+Testing with arguments: ./sim gshare 4 3 testcases/mcf_trace.txt
+4 3 29.3567%
+Testing with arguments: ./sim gshare 4 4 testcases/mcf_trace.txt
+4 4 31.7175%
+Testing with arguments: ./sim gshare 4 1 testcases/gobmk_trace.txt
+4 1 0.77285%
+Testing with arguments: ./sim gshare 4 2 testcases/gobmk_trace.txt
+4 2 0.87035%
+Testing with arguments: ./sim gshare 4 3 testcases/gobmk_trace.txt
+4 3 0.86405%
+Testing with arguments: ./sim gshare 4 4 testcases/gobmk_trace.txt
+4 4 0.81575%
+
+================Part B: Vary Address Bits (M)===========================
+Testing with arguments: ./sim gshare 4 4 testcases/mcf_trace.txt
+4 4 31.7175%
+Testing with arguments: ./sim gshare 5 4 testcases/mcf_trace.txt
+5 4 26.558%
+Testing with arguments: ./sim gshare 6 4 testcases/mcf_trace.txt
+6 4 19.8122%
+Testing with arguments: ./sim gshare 7 4 testcases/mcf_trace.txt
+7 4 12.3959%
+Testing with arguments: ./sim gshare 4 4 testcases/gobmk_trace.txt
+4 4 0.81575%
+Testing with arguments: ./sim gshare 5 4 testcases/gobmk_trace.txt
+5 4 0.6687%
+Testing with arguments: ./sim gshare 6 4 testcases/gobmk_trace.txt
+6 4 0.59725%
+Testing with arguments: ./sim gshare 7 4 testcases/gobmk_trace.txt
+7 4 0.58195%
+
+================Part C: Vary Address Bits (M) with N = 0===========================
+Testing with arguments: ./sim gshare 4 0 testcases/mcf_trace.txt
+4 0 24.712%
+Testing with arguments: ./sim gshare 5 0 testcases/mcf_trace.txt
+5 0 23.6345%
+Testing with arguments: ./sim gshare 6 0 testcases/mcf_trace.txt
+6 0 17.2545%
+Testing with arguments: ./sim gshare 7 0 testcases/mcf_trace.txt
+7 0 10.4532%
+Testing with arguments: ./sim gshare 4 0 testcases/gobmk_trace.txt
+4 0 0.77285%
+Testing with arguments: ./sim gshare 5 0 testcases/gobmk_trace.txt
+5 0 0.66395%
+Testing with arguments: ./sim gshare 6 0 testcases/gobmk_trace.txt
+6 0 0.6868%
+Testing with arguments: ./sim gshare 7 0 testcases/gobmk_trace.txt
+7 0 0.6489%
